@@ -18,3 +18,27 @@ let age =45
 let stringmaker = String(age)
 console.log(stringmaker);
 console.log(typeof stringmaker);
+
+
+              //OPERATIONS
+
+              let str1 = "hello "
+              let str2 = "alok"
+              
+              console.log(str1 + str2)
+              
+              //Problem_Areas
+              
+              console.log(1 + "2")
+              console.log("1" + 2)
+              console.log("1" + 2 + 2)
+              console.log(1 + 2 + "2") //imp - if string is first than all other also treated in string if number than all other treated like numbers and operations are occured as usual
+
+              
+
+              console.log(true);
+              console.log(+true);
+              console.log(-true);
+
+              console.log(+false)
+              console.log(-false);
