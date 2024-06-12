@@ -42,3 +42,9 @@ console.log(typeof stringmaker);
 
               console.log(+false)
               console.log(-false);
+
+
+              let gameCounter = 100;
+             //gameCounter++;
+             ++gameCounter
+             console.log(gameCounter);
